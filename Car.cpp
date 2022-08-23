@@ -49,7 +49,7 @@ int Car::GetQuantity() const
     return _quantity;
 }
 
-string Car::GetJSON() const
+string Car::GetJSON() const                  // return data as json line
 {
     stringstream  ss;
     ss << "{\"Type\":\"" << _type << "\", \"Color\":\"" << _color << "\", \"Year\":" << _year << ", \"Quantity\":" << _quantity << "}";
