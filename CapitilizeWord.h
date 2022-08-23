@@ -1,6 +1,4 @@
-//
-// Created by XaveF on 8/23/2022.
-//
+//  Created by Fransiskus Agapa on 8/23/2022.
 
 #ifndef BASICCLASS6_CAPITILIZEWORD_H
 #define BASICCLASS6_CAPITILIZEWORD_H
@@ -14,9 +12,9 @@ using std::string;
 
 string Capitalize(string& word)
 {
-    if(islower(word[0]))
+    if(islower(word[0]))                     // if first char is lower
     {
-        word[0] = toupper(word[0]);
+        word[0] = toupper(word[0]);          // make the lower case to upper case
     }
 
     return word;
