@@ -15,9 +15,9 @@ string ToUpper(string& word)
 {
     for(size_t i = 0; i < word.size(); ++i)
     {
-        if(islower(word[i]))
+        if(islower(word[i]))                      // if any lower case is found
         {
-            word[i] = toupper(word[i]);
+            word[i] = toupper(word[i]);          // make it upper case and assign it as new value
         }
     }
     return word;
